@@ -6,11 +6,11 @@ public class StudiKasus1_15 {
     Scanner Raffa = new Scanner(System.in);
 
         int hargaPerCup = 18000;
-        int batasDiskon = 100000;
-        int persenDiskon = 10;
+        int batasDiskon = 80000;
+        int persenDiskon = 8;
         
         int jumlahCup, uangBayar;
-        int totalHarga, diskon, totalBayar;
+        int totalHarga, diskon = 0, totalBayar;
         int kembalian, kurang;
 
         System.out.print("Masukkan jumlah cup : ");
