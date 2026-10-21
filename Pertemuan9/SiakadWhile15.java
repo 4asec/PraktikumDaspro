@@ -1,3 +1,4 @@
+package PrakDaspro.Pertemuan9;
 import java.util.Scanner;
 public class SiakadWhile15 {
     public static void main(String[] args) {
