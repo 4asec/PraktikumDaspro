@@ -6,20 +6,20 @@ public class KafeDoWhile15 {
 
         int kopi, teh, roti;
         String namaPelanggan;
-        double hargaKopi = 12000, hargaTeh=7000, hargaRoti=200000;
+        double hargaKopi = 10000, hargaTeh=8000, hargaRoti=18000;
 
         do {
-            System.out.println("Masukkan nama pelanggan (ketik 'batal' untuk keluar):");
+            System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar):");
             namaPelanggan = Raffa.nextLine();
             if (namaPelanggan.equalsIgnoreCase("batal")) {
                 System.out.println("Transaksi di batalkan");
                 break;
             }
-            System.out.println("Jumlah kopi:    ");
+            System.out.print("Jumlah kopi:    ");
             kopi = Raffa.nextInt();
-            System.out.println("Jumlah teh");
+            System.out.print("Jumlah teh:   ");
             teh =  Raffa.nextInt();
-            System.out.println("Jumlah roti");
+            System.out.print("Jumlah roti:  ");
             roti = Raffa.nextInt();
 
             double totalHarga;
