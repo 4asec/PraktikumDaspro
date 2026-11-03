@@ -22,7 +22,7 @@ public class NilaiKelompok15 {
             System.out.println("Kelompok "+nomorKelompok);
             double totalNilai = 0;
 
-        for (int j = 0; j <= jmlPenilai; j++) {
+        for (int j = 1; j <= jmlPenilai; j++) {
             int nilai;
             do{
                 System.out.print("Nilai dair penilai " +j+ ": ");
@@ -38,7 +38,9 @@ public class NilaiKelompok15 {
         System.out.println("Kelompok "+nomorKelompok+ ": nilai rata-rata = "+rataNilai);
 
         if (rataNilai > rataTertinggi) {
-            // lengkapi : perbarui rataTertinggi dan kelompok Terbaik
+            rataTertinggi = rataNilai;
+            kelTerbaik = nomorKelompok;
+            // melengkapi : perbarui rataTertinggi dan kelompok Terbaik
         }
 
             nomorKelompok++;
