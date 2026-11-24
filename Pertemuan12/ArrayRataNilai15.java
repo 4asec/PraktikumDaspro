@@ -9,9 +9,9 @@ public class ArrayRataNilai15 {
         double rata2;
 
         for (int i = 0; i < nilaiMhs.length; i++) {
-            System.out.print("Masukkan nilai mahasiswa ke   : ");
-            int jmlMhs = input.nextInt();
-            int[] nilaiMhs = new int[jmlMhs];
+            System.out.println("Masukkan nilai mahasiwa ke- "+ (i +1) + ":  ");
+            nilaiMhs[i] = input.nextInt();
+            total += nilaiMhs[i];
         }
 
         rata2 = (double) total / nilaiMhs.length;
